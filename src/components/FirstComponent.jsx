@@ -19,7 +19,7 @@ const FirstComponent = () => {
       <h2> <button><Link to={'Terceiro'}> Prosseguir</Link></button>   </h2>
       
 
-      <footer> <button> <Link to={'Quarto'}>ALL PROJECT</Link></button> </footer>
+      <footer> <button> <Link to={'Quarto'}>Componente</Link></button> </footer>
       
       </div>
   )
