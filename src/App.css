@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  border-radius: 1px 20px 1px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #39393900;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("brazil1.png");
+
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2,
+h1,
+footer {
+  color: white;
+  text-shadow: 0px 1px 0 #0000007d;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.45em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fcfcfcea;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  text-decoration: none;
+}
+button a {
+  color: black;
+  text-decoration: none;
+}
+button:hover {
+  color: black;
+}
+ol {
+  padding-left: 0; /* Remove o espaçamento padrão */
+  list-style-position: inside; /* Mantém os números dentro da área de texto */
+}
+li {
+  margin-bottom: 5px;
+}
